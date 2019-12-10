@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PA Taxi & Tours</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo1.png" alt="P.A. Taxi & Tours" class="logo">
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop">
+                        <img src="images/exit.svg" alt="exit menu">
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Reserve</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <img src="./images/van.png" alt="" class="van"></<img>
+        <div class="top">
+        <H1>"The Bahamas Our Pride and Joy"</H1>
+        <P>Seats 11 Adults comfortably with luggage and 15 Adults without.</P>
+        </div>
+        <section>
+            
+                    <div class="cognito">
+                            <script src="https://services.cognitoforms.com/s/TcXXudSx-U6dkFdu0ND3VQ"></script>
+                            <script>Cognito.load("forms", { id: "1" });</script>
+                            
+                        </div>
+                            
+           
+    </section>
+    <div class="weather">
+           
+        </div>
+        <p>Copyright &copy; Designed by E-secure</p>
+    <script>
+        
+    
+            var menu = document.getElementById('menu');
+            var nav = document.getElementById('nav');
+            var exit = document.getElementById('exit');
+    
+            menu.addEventListener('click', function(e) {
+                nav.classList.toggle('hide-mobile');
+                e.preventDefault();
+            });
+    
+            exit.addEventListener('click', function(e) {
+                nav.classList.add('hide-mobile');
+                e.preventDefault();
+            });
+    
+        </script>
+</body>
+</html>
